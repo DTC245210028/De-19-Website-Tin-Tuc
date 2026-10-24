@@ -1,0 +1,10 @@
+apiVersion: 1
+providers:
+  - name: 'News Portal'
+    orgId: 1
+    folder: 'News Portal'
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/provisioning/dashboards
